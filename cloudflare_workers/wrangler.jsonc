@@ -4,6 +4,12 @@
   "compatibility_date": "2025-04-01",
   "compatibility_flags": [ "nodejs_compat" ],
   "main": "src/index.ts",
+  "routes": [
+    {
+      "pattern": "foobar.cloudflareworkersquotaexhuastiontest.work/*",
+      "zone_name": "cloudflareworkersquotaexhuastiontest.work"
+    }
+  ],
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
